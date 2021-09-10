@@ -43,10 +43,10 @@
 # num2 = input("숫자2: ")
 # print(num1 + num2)
 
-# # input 함수 integer 변환
-# num1 = int(input("숫자1: "))
-# num2 = int(input("숫자2: "))
-# print(num1 + num2)
+# input 함수 integer 변환
+num1 = int(input("숫자1: "))
+num2 = int(input("숫자2: "))
+print(num1 + num2)
 
 num1 = input("숫자1: ")
 num2 = input("숫자2: ")
