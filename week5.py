@@ -7,3 +7,4 @@ for i in fruit:
 a = [(1, 2), (3, 4), (5, 6)]
 for (first, last) in a:
     print(first + last)
+# 강의 이어서 듣고 예제 풀어야 한다. 오늘 안에
