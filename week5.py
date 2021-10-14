@@ -46,10 +46,35 @@
 # for i in range(1, n+1):
 #     factorial *= i
 # print(factorial)
-# 예제 8
-print("구구단 출력")
-for i in range(2, 10):
-    print('')
-    for j in range(1, 10):
-        print('%d * %d = %d' % (i, j, i*j))
-# 예제 9
+# # 예제 8
+# print("구구단 출력")
+# for i in range(2, 10):
+#     print('')
+#     for j in range(1, 10):
+#         print('%d * %d = %d' % (i, j, i*j))
+# # 예제 9
+# int(input("출력할 단어를 입력하세요.: "))
+# print("구구단 출력")
+# for i in range(1, 10):
+#     print("%d * %d")
+
+# # 예제 10
+# for a in range(0, 10):
+#     for i in range(a+1):
+#         print("*", end="")
+#     print()
+
+# for a in range(0, 10):
+#     print("*"*(a+1))
+# # 예제 11
+# for a in range(10, 0, -1):
+#     for i in range(a-1):
+#         print("*", end="")
+#     print()
+# for b in range(0, 10):
+#     print("{:>10}".format("*"*(b+1)))
+
+# 예제 12
+
+
+# -1시간 24분에서 하차함. 다시 들어야 됨
