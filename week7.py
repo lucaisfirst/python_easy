@@ -51,3 +51,48 @@
 # arr1 = [10, 20, 30, 40, 50]
 # arr1.remove(20)
 # print(arr1)
+
+# # 예제1
+# list1 = [1, 2, 3, 4, 5]
+# list2 = [1, 2, 3, 4, 5]
+
+# if len(list1) != len(list2):
+#     print("두 리스트는 같지 않습니다.")
+# else:
+#     flag = 0
+
+#     for i in range(len(list1)):
+#         flag = 1
+#         break
+#     if flag == 1:
+#         print("두 리스트는 같지 않습니다.")
+#     else:
+#         print("두 리스트는 같습니다.")
+
+# 예제2
+ageList = [10, 2, 0, 10, 0, 60, 90, 42, 12, 42, 10, 0, 1]
+
+countList = [0]
+
+for i in range(0, 100, 1):
+    countList.append(0)
+
+for i in range(0, 20, 1):
+    countList[ageList[i]] = countList[ageList[i]] + 1
+
+for i in range(0, 101, 1):
+    if countList[i] != 0:
+        print("%d세, %d명" % (i, countList[i]))
+
+
+# 예제3
+searchList = [2, 43, 53, 53, 52, 65, 4, 64, 35]
+key = 12
+
+index = -1
+
+length = len(searchList)
+
+for i in range(0, length, 1):
+    if key == searchList[i]:
+        index
