@@ -82,6 +82,17 @@
 # for j in range(10, 0, -1):
 #     print('{:>10}'.format('*'*j))
 
-# 예제 13
-for i in range(1, 21, 2):
-    print('{:^20}'.format('*'*i))
+# # 예제 13
+# for i in range(1, 21, 2):
+#     print('{:^20}'.format('*'*i))
+
+# # 예제 14
+# scores = [100, 70, 50, 25, 85]
+
+# number = 0
+
+# for score in scores:
+#     number = number + 1
+#     if score < 70:
+#         continue
+#     print("%d번 학생 축하합니다. 합격입니다." % number)
