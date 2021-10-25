@@ -67,14 +67,18 @@
 # for a in range(0, 10):
 #     print("*"*(a+1))
 # # 예제 11
-# for a in range(10, 0, -1):
-#     for i in range(a-1):
-#         print("*", end="")
-#     print()
-# for b in range(0, 10):
-#     print("{:>10}".format("*"*(b+1)))
+for b in range(0, 10):
+    print("{:<10}".format("*"*(b+1)))
+for a in range(10, 0, -1):
+    for i in range(a-1):
+        print("*", end="")
+    print()
 
 # 예제 12
+for i in range(0, 10):
+    print('{:>10}'.format('*'*(i+1)))
+for j in range(10, 0, -1):
+    print('{:>10}'.format('*'*j))
 
 
 # -1시간 24분에서 하차함. 다시 들어야 됨
