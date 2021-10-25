@@ -137,20 +137,20 @@
 # print("짝수값 :", even_count)
 # print("홀수값 :", odd_count)
 
-# 실습 문제 100이상 숫자 -> 합과 평균 출력
-sum = 0
-ave = 0
-count = 0
+# # 실습 문제 100이상 숫자 -> 합과 평균 출력
+# sum = 0
+# ave = 0
+# count = 0
 
-while True:
-    n = int(input())
+# while True:
+#     n = int(input())
 
-    if n >= 100:
-        break
+#     if n >= 100:
+#         break
 
-    sum += n
-    count += 1
+#     sum += n
+#     count += 1
 
-ave = sum / count
-print(sum)
-print("%.1f" % ave)
+# ave = sum / count
+# print(sum)
+# print("%.1f" % ave)
