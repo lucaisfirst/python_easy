@@ -81,3 +81,7 @@
 #     print('{:>10}'.format('*'*(i+1)))
 # for j in range(10, 0, -1):
 #     print('{:>10}'.format('*'*j))
+
+# 예제 13
+for i in range(1, 21, 2):
+    print('{:^20}'.format('*'*i))
