@@ -69,30 +69,30 @@
 #     else:
 #         print("두 리스트는 같습니다.")
 
-# 예제2
-ageList = [10, 2, 0, 10, 0, 60, 90, 42, 12, 42, 10, 0, 1]
+# # 예제2
+# ageList = [10, 2, 0, 10, 0, 60, 90, 42, 12, 42, 10, 0, 1]
 
-countList = [0]
+# countList = [0]
 
-for i in range(0, 100, 1):
-    countList.append(0)
+# for i in range(0, 100, 1):
+#     countList.append(0)
 
-for i in range(0, 20, 1):
-    countList[ageList[i]] = countList[ageList[i]] + 1
+# for i in range(0, 20, 1):
+#     countList[ageList[i]] = countList[ageList[i]] + 1
 
-for i in range(0, 101, 1):
-    if countList[i] != 0:
-        print("%d세, %d명" % (i, countList[i]))
+# for i in range(0, 101, 1):
+#     if countList[i] != 0:
+#         print("%d세, %d명" % (i, countList[i]))
 
 
-# 예제3
-searchList = [2, 43, 53, 53, 52, 65, 4, 64, 35]
-key = 12
+# # 예제3
+# searchList = [2, 43, 53, 53, 52, 65, 4, 64, 35]
+# key = 12
 
-index = -1
+# index = -1
 
-length = len(searchList)
+# length = len(searchList)
 
-for i in range(0, length, 1):
-    if key == searchList[i]:
-        index
+# for i in range(0, length, 1):
+#     if key == searchList[i]:
+#         index
