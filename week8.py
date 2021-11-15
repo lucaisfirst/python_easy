@@ -1,18 +1,19 @@
-list1 = ["김하진", 50, 100, 100, 80]
-list2 = ["허림", 90, 88, 95, 100]
-list3 = ["이승형", 100, 100, 100, 100]
-list4 = ["홍길동", 10, 20, 30, 40]
+# # 1차원 리스트
+# list1 = ["김하진", 50, 100, 100, 80]
+# list2 = ["허림", 90, 88, 95, 100]
+# list3 = ["이승형", 100, 100, 100, 100]
+# list4 = ["홍길동", 10, 20, 30, 40]
 
-total = 0
-ave = 0
+# total = 0
+# ave = 0
 
-for i in range(1, 5, 1):
-    total = total + list1[i]
-ave = total / 4
-list1.insert(1, ave)
-total = 0
+# for i in range(1, 5, 1):
+#     total = total + list1[i]
+# ave = total / 4
+# list1.insert(1, ave)
+# total = 0
 
-print(list1)
+# print(list1)
 
 # for i in range(1, 5, 1):
 #     total = total + list2[i]
@@ -37,3 +38,18 @@ print(list1)
 # total = 0
 
 # print(list4)
+
+# 2차원 리스트
+list2 = [["김하진", 50, 100, 100, 80], ["허림", 90, 88, 95, 100],
+         ["이승형", 100, 100, 100, 100], ["홍길동", 10, 20, 30, 40]]
+
+total = 0
+ave = 0
+
+for i in range(0, 4, 1):
+    for j in range(1, 5, 1):
+        total = total + list2[i][j]
+    ave = total / 4
+    list2[i].insert(1, ave)
+    total = 0
+    print(list2[i])
